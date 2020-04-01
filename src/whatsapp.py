@@ -11,7 +11,7 @@ options = webdriver.ChromeOptions()
 
 options.add_argument("--start-maximized")
 options.add_argument(
-    r"user-data-dir=C:\Users\c819935\AppData\Local\Google\Chrome\User Data\Default")
+    r"user-data-dir=C:\Users\**\AppData\Local\Google\Chrome\User Data\Default")
 
 driver = webdriver.Chrome(options=options)
 chatlist_search = "#side > div.rRAIq > div > label > div > div._2S1VP.copyable-text.selectable-text"
