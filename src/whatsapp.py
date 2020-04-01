@@ -113,7 +113,7 @@ def createGroup(targetList):
     # findexitbtn.click()
 
 for i in range(50):
-    createGroup(["Adwoa"])
+    createGroup(["username"])
 
 # try:
 # finally:
